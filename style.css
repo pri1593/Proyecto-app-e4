@@ -94,11 +94,11 @@ nav{
     background-color: #fff;
     color: #000;
     margin-bottom: 100px;
-    padding: 0.4rem 0.2rem;
+    padding: 0.4rem 0.5rem;
     border-radius: 25px;
     width: 150px;
     text-align: center;
-    *margin-left:130px;
+    margin-left:190px;
     font-size: 15px;
     text-transform: uppercase;
     box-shadow: 0 0 20px rgba(5, 5, 5, 0.653);
@@ -282,6 +282,8 @@ footer .titulo{
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        padding: 10px;
+        
     }
     .productos-container{
         flex-direction: row;
@@ -298,4 +300,42 @@ footer .titulo{
     .cart-container{
         max-width: 1000px;
     }
+    .descripcion-section{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    .descripcion-section2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2-titulo{
+        font-weight: 400;
+        padding: 30px;
+        color: #fff;
+        
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .contacto{
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .legales{
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        padding: 10px;
+    }
+    
 }
