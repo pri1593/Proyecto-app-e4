@@ -122,8 +122,8 @@ nav{
 .info-card{
     border-radius: 50px;
     margin-bottom: 2rem;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     box-shadow: 0 0 20px rgba(5, 5, 5, 0.5);
 
 }
@@ -160,8 +160,8 @@ nav{
 .info-card2{
     border-radius: 50px;
     margin-bottom: 2rem;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     box-shadow: 0 0 20px rgba(5, 5, 5, 0.5);
 
 }
@@ -203,14 +203,14 @@ nav{
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-top: 5rem;
-    width:350px;
-    height: 400px;
+    width:250px;
+    height: 350px;
     border-radius: 25px;
     position: relative;
 }
 .productos img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 25px;
 }
 .product-title{
@@ -447,7 +447,6 @@ footer .titulo{
     }
     .productos-container{
         flex-direction: row;
-        flex-wrap: wrap;
         max-width: 800px;
         margin: 0 auto;
         gap: 100px;
@@ -456,6 +455,9 @@ footer .titulo{
     }
     .productos{
         margin: 0;
+        height: 348px;
+        
+        
     }
     .cart-container{
         max-width: 1000px;
@@ -465,6 +467,8 @@ footer .titulo{
         flex-direction: row;
         justify-content:center;
         align-items: center;
+        gap:30px;
+        padding: 20px;
         
     }
     .descripcion-section2{
@@ -472,11 +476,14 @@ footer .titulo{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap:30px;
+        padding: 20px;
     }
     .h2-titulo{
         font-weight: 400;
         padding: 30px;
         color: #fff;
+        width: 250px;
         
     }
     footer{
@@ -489,7 +496,7 @@ footer .titulo{
     .contacto{
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 5rem;
     }
     .contacto a{
         display: inline-block;
@@ -504,7 +511,9 @@ footer .titulo{
         justify-content: center;
         align-items: center;
         padding: 2px;
-        
+        margin: 0 0 0 30px;
+        margin-right: 25px;
+        margin-top: 2.5rem;
         
     }
     
