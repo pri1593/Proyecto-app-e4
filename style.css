@@ -103,6 +103,22 @@ nav{
     text-transform: uppercase;
     box-shadow: 0 0 20px rgba(5, 5, 5, 0.653);
 }
+.img-cont{
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: move-vector 4s linear infinite;
+}
+@keyframes move-vector{
+    0%{
+        transform: translateY(15px);
+    }50%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(15px);
+    }
+     
+}
+
 
 .descripcion-section{
     flex-direction: column;
