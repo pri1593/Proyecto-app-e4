@@ -103,6 +103,7 @@ nav{
     text-transform: uppercase;
     box-shadow: 0 0 20px rgba(5, 5, 5, 0.653);
 }
+
 .descripcion-section{
     flex-direction: column;
     justify-content: center;
@@ -340,22 +341,35 @@ footer .titulo{
 }
 .contacto a{
     color: #f3f3f3;
+    padding: 5px;
+    
+    
 }
 .contacto h2{
     color: #f3f3f3;
     text-transform: uppercase;
     font-weight: 300;
 }
-.legales{
+.redes {
     max-width: 250px;
-    margin-bottom: 2rem;
+    margin-right: 100px;
     color: #f3f3f3;
-    font-weight: 300;
+    margin: 0 10px 10px 0;
 }
-.legales h2{
+.redes h2{
     color: #f3f3f3;
     text-transform: uppercase;
     font-weight: 300;
+  
+    margin-top: 2rem;
+}
+.iconos-redes{
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+
 }
 
 
@@ -411,6 +425,17 @@ footer .titulo{
     .img-cont{
         border-radius: 25px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        animation: move-vector 4s linear infinite;
+    }
+    @keyframes move-vector{
+        0%{
+            transform: translateY(15px);
+        }50%{
+            transform: translateY(0px);
+        }100%{
+            transform: translateY(15px);
+        }
+         
     }
     .card-container{
         display: flex;
@@ -466,11 +491,21 @@ footer .titulo{
         align-items: center;
         margin-top: 30px;
     }
-    .legales{
+    .contacto a{
+        display: inline-block;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        color: #ffffff;
+         
+        
+    }
+    .redes h2{
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 80px;
-        padding: 10px;
+        padding: 2px;
+        
+        
     }
     
 }
