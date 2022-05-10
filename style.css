@@ -126,6 +126,7 @@ nav{
     align-items: center;
     padding: 8rem 0;
     background: rgb(122, 111, 137);
+    padding: 60px;
 
 }
 .descripcion-section h2{
@@ -164,6 +165,7 @@ nav{
     align-items: center;
     padding: 8rem 0;
     background: rgb(129, 80, 235);
+    padding: 60px;
 
 }
 .descripcion-section2 h2{
@@ -199,6 +201,7 @@ nav{
 .lista-de-productos{
     padding: 5rem 0;
     background-color: #fff;
+    padding: 60px;
 }
 .lista-de-productos h2{
     text-align: center;
