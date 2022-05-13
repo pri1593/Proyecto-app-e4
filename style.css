@@ -257,6 +257,11 @@ nav{
     text-transform: uppercase;
     cursor: pointer;
 }
+.btn:hover{
+    transform: scale(1.1);
+    background-color:rgba(240, 151, 151, 0.999);
+
+}
 *.disabled{
     background: #f3f3f3;
     border: none;
@@ -279,7 +284,7 @@ nav{
 
 }
 .cart-section{
-    background: rgb(49, 49, 49);
+    background: rgb(122, 111, 137);
     padding: 3rem 0;
 }
 .cart-section h2{
@@ -478,6 +483,9 @@ footer .titulo{
         
         
     }
+    .productos:hover{
+        transform: scale(1.1);
+    }
     .cart-container{
         max-width: 1000px;
     }
@@ -534,6 +542,35 @@ footer .titulo{
         margin-right: 25px;
         margin-top: 2.5rem;
         
+    }
+    
+    .menu li a {
+        position: relative;
+    }
+    .item{
+        position: relative;
+    }
+    .menu .item:hover::after{
+        content: "";
+        position: absolute;
+        bottom:25px;
+        left: 20px;
+        right: 0px;
+        width: 75%;
+        background-color:rgba(240, 151, 151, 0.999);
+        height: 1px;
+        
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        background-color:rgba(240, 151, 151, 0.999);
+
+    }
+    .info-card:hover{
+        transform: scale(1.1);
+    }
+    .info-card2:hover{
+        transform: scale(1.1);
     }
     
 }
