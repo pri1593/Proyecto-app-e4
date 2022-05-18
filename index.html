@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">                                                                                
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+   
     <title>Cali app</title>
 </head>
 <body>
@@ -24,8 +26,12 @@
                 <li  class="item"><a href="#Contacto">Contacto</a></li>
                 <li  class="item"><a href="#Cartlist"><i class="fa-solid fa-cart-shopping" id="#carrito"></i></a></li>
                 </div>
-                <div class="btn-container">
-                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                <div class="btn-container toggle">
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                    <a href=""><i class="fa-solid fa-bars" id="btn1"></i></a>
+                    <a href=""><i class="fa-solid fa-xmark" id="close"></i></a>
+                    </label>
                 </div>
             </ul>
         </nav>
@@ -153,4 +159,5 @@
         </div>
     </footer>
 </body>
+
 </html>

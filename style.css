@@ -27,6 +27,7 @@ main{
     height: 100%;
 }
 header{
+
     display: flex;
     justify-content: center;
     padding: 0.3rem 0 0.2rem 0;
@@ -63,7 +64,7 @@ nav{
     width: 10rem;
 }
 .Nosotros-section{
-    background:rgb(75, 65, 212);
+    background: linear-gradient(#e66465, #9198e5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +72,7 @@ nav{
 
 }
 .Nosotros-content{
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,15 +127,15 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 8rem 0;
-    background: rgb(122, 111, 137);
-    padding: 60px;
+    background: rgb(138, 153, 229);
+    padding: 70px;
 
 }
 .descripcion-section h2{
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-bottom: 2rem;
 }
 .info-card{
@@ -156,8 +158,8 @@ nav{
     max-width: 300px;
     text-align: center;
     font-size: 1.4rem;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 .descripcion-section2{
     flex-direction: column;
@@ -195,7 +197,7 @@ nav{
     max-width: 300px;
     text-align: center;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
 }
 .lista-de-productos{
@@ -395,6 +397,13 @@ footer .titulo{
   
 
 }
+label #close{
+    display: none;
+}
+#check{
+    display: none;
+}
+
 
 
 @media (min-width:1024px) {
@@ -495,7 +504,7 @@ footer .titulo{
         justify-content:center;
         align-items: center;
         gap:30px;
-        padding: 20px;
+        padding: 1px;
         
     }
     .descripcion-section2{
@@ -572,5 +581,14 @@ footer .titulo{
     .info-card2:hover{
         transform: scale(1.1);
     }
+    label #btn1,
+    label #close{
+    color: #fff;
+    line-height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+    }
     
+
 }
